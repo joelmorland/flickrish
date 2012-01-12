@@ -3,3 +3,14 @@ Flickrish
 CakePHP 2.0 with database turned off / set to custom
 phpFlickr class by Dan Coulter
 Flickr Class + CakePHP installation by Joel Morland
+
+PHPUnit Test Results
+"   Running GalleryController
+    Passed
+    testIndex (4.7661151885986 seconds)
+
+1/1 test methods complete: 1 passes, 0 fails, 5 assertions and 0 exceptions.
+
+Time: 4.7661151885986 seconds
+
+Peak memory: 5,236,488 bytes"
