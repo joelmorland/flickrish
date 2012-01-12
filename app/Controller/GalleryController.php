@@ -17,7 +17,7 @@ class GalleryController extends AppController
         $search=(isset($this->params['url']['query']))?$this->params['url']['query']:'sunset';
         
         #set page title
-        $this->set('title_for_layout', "Flickrish '$search' | P$page");
+        $this->set('title_for_layout', "Flickrish '$search' | p$page");
                
         #execute search function
         $photos = $flickr->searchPhotos($search, $page);        
